@@ -6,7 +6,7 @@ TIMEZONE = 'America/Costa_Rica'
 DEFAULT_LANG = 'en'
 
 ABOUT_ME = "I'm a Computer Engineer from Costa Rica working as an Embedded "\
-    "Software Engineer. Here I write about the experiments I'm work on and "\
+    "Software Engineer. Here I write about the experiments I'm working on and "\
     "the things I learn."
 
 CC_LICENSE = "BY-SA"
