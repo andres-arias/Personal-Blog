@@ -5,7 +5,7 @@ description = ""
 authors = ["Andres Arias <andres.arias12@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 pelican = {extras = ["markdown"], version = "^4.8.0"}
 ipython = "^8.4.0"
 pelican-liquid-tags = "^1.0.3"
