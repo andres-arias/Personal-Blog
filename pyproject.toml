@@ -4,6 +4,10 @@ version = "0.1.0"
 description = ""
 authors = ["Andres Arias <andres.arias12@gmail.com>"]
 
+[[tool.poetry.source]]
+name = "pypi-public"
+url = "https://pypi.org/simple/"
+
 [tool.poetry.dependencies]
 python = "^3.8"
 pelican = {extras = ["markdown"], version = "^4.8.0"}
