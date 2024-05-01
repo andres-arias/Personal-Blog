@@ -21,7 +21,7 @@ Computer Architectures, Programming Languages, DevOps and Cloud Computing.
 
 ### Contact me
 
-My personal email is [andres.arias12@gmail.com](mailto:andres.arias12@gmail.com)
+My personal email is andres.arias12(at)gmail.com.
 
 Alternatively, you can find me on [LinkedIn](https://www.linkedin.com/in/andresarias95/).
 
