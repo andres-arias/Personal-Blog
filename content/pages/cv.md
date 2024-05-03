@@ -2,14 +2,10 @@
 title: Curriculum Vitae
 ---
 
-Here you will find my résumé. Please note that I'm currently
-**not for hire**.
-
-
 ## Experience
 
 ### [Boston Scientific](https://www.bostonscientific.com/)
-**R&D Embedded Software Engineer II**
+**R&D Advanced Embedded Software Engineer II**
 
 Heredia, Costa Rica
 
@@ -84,7 +80,7 @@ Cartago, Costa Rica
   * AWS API Gateway
 
 ### Web Development
-* Back-end development: Node.js (ExpressJS) and Microsoft ASP.NET.
+* Back-end development: Node.js (ExpressJS) and Python (Flask, FastAPI).
 * Front-end development: Angular, HTML5, CSS, Bootstrap.
 
 ---
