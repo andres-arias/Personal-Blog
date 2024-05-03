@@ -61,3 +61,7 @@ target/
 
 # Output files
 output/
+
+# Obsidian files
+content/.obsidian/workspace.json
+content/.obsidian/graph.json
