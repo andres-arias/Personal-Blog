@@ -800,6 +800,24 @@ pelican = ">=4.5"
 markdown = ["markdown (>=3.2)"]
 
 [[package]]
+name = "pelican-seo"
+version = "1.2.2"
+description = "Pelican plugin to improve SEO (Search Engine Optimization) to reach top positions on search engines."
+optional = false
+python-versions = ">=3.6.2,<4.0"
+files = [
+    {file = "pelican-seo-1.2.2.tar.gz", hash = "sha256:dd86aedf1bb2cbdb32bdcade3e95be95bf18ca85947ad610099c864119100498"},
+    {file = "pelican_seo-1.2.2-py3-none-any.whl", hash = "sha256:98c0c6f30510e4f5b52343abf8c1da2bee8b52b206a3682891a6e830dc2e3215"},
+]
+
+[package.dependencies]
+beautifulsoup4 = ">=4.9,<5.0"
+pelican = ">=4.5"
+
+[package.extras]
+markdown = ["markdown (>=3.2)"]
+
+[[package]]
 name = "pexpect"
 version = "4.9.0"
 description = "Pexpect allows easy control of interactive console applications."
@@ -1388,4 +1406,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "25334c55cba18989141b75d8c7dfa8c337806102506c895559396ed5b2a89c46"
+content-hash = "25c305a95ab8f130aedf974446953dec6b38e899db4809112f31627352ec3c96"

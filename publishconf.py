@@ -12,3 +12,8 @@ FEED_ALL_ATOM = "feeds/all.atom.xml"
 CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
 
 DELETE_OUTPUT_DIRECTORY = True
+
+SEO_REPORT = True
+SEO_ENHANCER = True
+SEO_ENHANCER_OPEN_GRAPH = True
+SEO_ENHANCER_TWITTER_CARDS = True

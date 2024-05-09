@@ -15,6 +15,7 @@ ipython = "^8.4.0"
 pelican-liquid-tags = "^1.0.3"
 invoke = "^2.2.0"
 livereload = "^2.6.3"
+pelican-seo = "^1.2.2"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.4.3"

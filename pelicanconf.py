@@ -1,6 +1,6 @@
 AUTHOR = 'Andrés Arias'
 SITENAME = "Andrés' Blog"
-SITEURL = ''
+SITEURL = 'https://andres.world'
 PATH = 'content'
 TIMEZONE = 'America/Costa_Rica'
 DEFAULT_LANG = 'en'
@@ -14,7 +14,8 @@ CUSTOM_LICENSE = 'Content licensed under <a href="https://creativecommons.org/li
 THEME = 'themes/pelican-bootstrap3/'
 PLUGIN_PATHS = ['plugins/']
 PLUGINS = [
-    'i18n_subsites'
+    'i18n_subsites',
+    'seo'
 ]
 LIQUID_TAGS = ["notebook"]
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
@@ -54,3 +55,8 @@ ARCHIVES_SAVE_AS = 'archives.html'
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
+
+SEO_REPORT = True
+SEO_ENHANCER = True
+SEO_ENHANCER_OPEN_GRAPH = True
+SEO_ENHANCER_TWITTER_CARDS = True
