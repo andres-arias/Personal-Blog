@@ -19,6 +19,11 @@ PLUGINS = [
 LIQUID_TAGS = ["notebook"]
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
+STATIC_PATHS = [
+    'images',
+    'extra'
+]
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -46,3 +51,6 @@ DEFAULT_PAGINATION = 5
 # Enable archives page
 ARCHIVES_SAVE_AS = 'archives.html'
 
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}

@@ -23,7 +23,7 @@ CONFIG = {
     "settings_base": SETTINGS_FILE_BASE,
     "settings_publish": "publishconf.py",
     "deploy_path": SETTINGS["OUTPUT_PATH"],
-    "host": "localhost",
+    "host": "127.0.0.1",
     "port": 8000,
 }
 
@@ -40,14 +40,14 @@ def clean(c):
 
 @task
 def build(c):
-    """Build local version of site"""
-    pelican_run("-s {settings_base}".format(**CONFIG))
+    """Build the site"""
+    pelican_run('-s {settings_publish}'.format(**CONFIG))
 
 
 @task
 def rebuild(c):
     """`build` with the delete switch"""
-    pelican_run("-d -s {settings_base}".format(**CONFIG))
+    pelican_run("-d -s {settings_publish}".format(**CONFIG))
 
 
 @task
