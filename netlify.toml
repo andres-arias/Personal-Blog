@@ -4,5 +4,5 @@ command = """
 pip install -q poetry &&
 poetry config virtualenvs.in-project true &&
 poetry install -v &&
-poetry run make html
+poetry run invoke build
 """

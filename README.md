@@ -12,7 +12,7 @@ First use `poetry` to install the dependecies:
 poetry install
 ```
 
-Then run Pelican with the virtual environment created by Poetry:
+Then run the Pelican live server with the virtual environment created by Poetry:
 ```
-poetry run pelican -r -l
+poetry run invoke serve
 ```

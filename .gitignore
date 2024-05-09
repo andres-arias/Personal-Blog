@@ -61,6 +61,7 @@ target/
 
 # Output files
 output/
+cache/
 
 # Obsidian files
 content/.obsidian/workspace.json

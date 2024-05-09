@@ -1,18 +1,44 @@
 [tool.poetry]
-name = "pelican-blog"
+name = "andres-arias-blog"
 version = "0.1.0"
-description = ""
+description = "My personal blog built with Pelican"
 authors = ["Andres Arias <andres.arias12@gmail.com>"]
 
 [[tool.poetry.source]]
-name = "pypi-public"
-url = "https://pypi.org/simple/"
+name = "PyPI"
+priority = "primary"
 
 [tool.poetry.dependencies]
 python = "^3.8"
 pelican = {extras = ["markdown"], version = "^4.8.0"}
 ipython = "^8.4.0"
 pelican-liquid-tags = "^1.0.3"
+invoke = "^2.2.0"
+livereload = "^2.6.3"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.3"
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "B",  # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "N"  # PEP8 naming convetions
+]
+ignore = [
+    "C901",  # too complex
+    "W191"  # indentation contains tabs
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
