@@ -9,8 +9,8 @@ ABOUT_ME = "I'm a Computer Engineer from Costa Rica working as an Embedded "\
     "Software Engineer. Here I write about the experiments I'm working on and "\
     "the things I learn."
 
-CC_LICENSE = "BY-SA"
-
+CUSTOM_LICENSE = 'Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/"'\
+        'target="_blank">CC BY 4.0</a>, except where indicated otherwise.'
 THEME = 'themes/pelican-bootstrap3/'
 PLUGIN_PATHS = ['plugins/']
 PLUGINS = [
