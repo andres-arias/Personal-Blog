@@ -1,5 +1,5 @@
 AUTHOR = 'Andrés Arias'
-SITENAME = 'Random Computer Blog'
+SITENAME = "Andrés' Blog"
 SITEURL = ''
 PATH = 'content'
 TIMEZONE = 'America/Costa_Rica'
