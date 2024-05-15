@@ -17,7 +17,7 @@ You first need to install invoke, you can install it globally using `pip`:
 pip install invoke
 ```
 
-However, and I have written [before](./2024-04-30-getting-started-with-ruff-and-poetry.md), I like to use poetry to manage virtual environments an dependencies, so I just add `invoke` as a "dev" dependency to my projects:
+However, and I have written [before](https://andres.world/getting-started-with-ruff-and-poetry), I like to use poetry to manage virtual environments an dependencies, so I just add `invoke` as a "dev" dependency to my projects:
 
 ```bash
 poetry add --group dev invoke
@@ -64,7 +64,7 @@ Follow the [Get Started](https://docs.pyinvoke.org/en/stable/getting-started.htm
 
 ## Bonus: How I manage this blog using invoke
 
-This blog is built using [Pelican](./2022-08-25-pelican-netlify.md). Pelican provides a basic [Invoke](https://docs.getpelican.com/en/latest/publish.html#invoke) structure, however, I made some modifications to the `tasks.py` file provided. You can find my [tasks.py](https://github.com/andres-arias/Personal-Blog/blob/main/tasks.py) file on Github.
+This blog is built using [Pelican](https://andres.world/building-a-blog-with-pelican-and-netlify). Pelican provides a basic [Invoke](https://docs.getpelican.com/en/latest/publish.html#invoke) structure, however, I made some modifications to the `tasks.py` file provided. You can find my [tasks.py](https://github.com/andres-arias/Personal-Blog/blob/main/tasks.py) file on Github.
 
 One of the things I enjoy about invoke is that I can write scripts for anything. For example: I like to name my posts following the convention `YYYY-MM-DD-title-of-post.md`, so I wrote a simple `post` script that asks for a title, category, and tasks, and generates a file following that naming convention, and populates the post's front matter:
 
